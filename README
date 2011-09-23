@@ -1,0 +1,10 @@
+I am just working through the Django tutorial here:
+https://docs.djangoproject.com/en/1.3/intro/tutorial01/
+
+It's helpful to store even this work in Git because
+1. I get to see the steps of the tutorial
+2. I get to learn how Django and Git fit, e.g. which
+   files should be version controlled and which not,
+   and what steps need to be performed after a clone
+   to get Django working.
+
