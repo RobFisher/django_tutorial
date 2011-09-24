@@ -8,6 +8,11 @@ urlpatterns = patterns('',
     # Example:
     # (r'^mysite/', include('mysite.foo.urls')),
 
+    (r'^polls/$', 'polls.views.index'),
+    (r'^polls/(?P<poll_id>\d+)/$', 'polls.views.detail'),
+    (r'^polls/(?P<poll_id>\d+)/results/$', 'polls.views.results'),
+    (r'^polls/(?P<poll_id>\d+)/vote/$', 'polls.views.vote'),
+
     # Uncomment the admin/doc line below and add 'django.contrib.admindocs' 
     # to INSTALLED_APPS to enable admin documentation:
     # (r'^admin/doc/', include('django.contrib.admindocs.urls')),
